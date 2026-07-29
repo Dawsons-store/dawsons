@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DAWSONS | Premium Online Store</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                DAWSONS
+            </a>
+
+            <ul class="nav-links">
+
+                <li><a href="index.html" class="active">Home</a></li>
+
+                <li><a href="shop.html">Shop</a></li>
+
+                <li><a href="categories.html">Categories</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+            <div class="search-box">
+
+                <input type="text" placeholder="Search products...">
+
+                <button>
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </button>
+
+            </div>
+
+            <div class="nav-icons">
+
+                <a href="login.html">
+
+                    <i class="fa-regular fa-user"></i>
+
+                </a>
+
+                <a href="cart.html" class="cart-icon">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    <span id="cart-count">0</span>
+
+                </a>
+
+            </div>
+
+            <div class="menu-btn">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+        </nav>
+        <!-- ================= HERO SECTION ================= -->
+
+
+    </header>
+    
+<section class="hero">
+
+    <div class="hero-content">
+
+        <span class="hero-tag">Premium Online Store</span>
+
+        <h1>
+            Discover Quality <br>
+            Products at <span>DAWSONS</span>
+        </h1>
+
+        <p>
+            Shop the latest fashion, electronics, beauty, home essentials,
+            accessories and much more — all in one place.
+        </p>
+
+        <div class="hero-btns">
+
+            <a href="shop.html" class="btn btn-gold">
+                Shop Now
+            </a>
+
+           
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= CATEGORIES ================= -->
+
+<section class="categories">
+
+    <div class="section-title">
+
+        <span>Browse Collection</span>
+
+        <h2>Shop by Categories</h2>
+
+        <p>Choose your favorite category and start shopping.</p>
+
+    </div>
+
+    <div class="category-grid">
+
+        <a href="shop.html" class="category-card">
+
+            <img src="images/categories/fashion.jpg" alt="Fashion">
+
+            <div class="category-overlay">
+
+                <h3>Fashion</h3>
+
+            </div>
+
+        </a>
+
+        <a href="shop.html" class="category-card">
+
+            <img src="images/categories/electronics.jpg" alt="Electronics">
+
+            <div class="category-overlay">
+
+                <h3>Electronics</h3>
+
+            </div>
+
+        </a>
+
+        <a href="shop.html" class="category-card">
+
+            <img src="images/categories/shoes.jpg" alt="Shoes">
+
+            <div class="category-overlay">
+
+                <h3>Shoes</h3>
+
+            </div>
+
+        </a>
+
+        <a href="shop.html" class="category-card">
+
+            <img src="images/categories/beauty.jpg" alt="Beauty">
+
+            <div class="category-overlay">
+
+                <h3>Beauty</h3>
+
+            </div>
+
+        </a>
+
+        <a href="shop.html" class="category-card">
+
+            <img src="images/categories/home.jpg" alt="Home">
+
+            <div class="category-overlay">
+
+                <h3>Home</h3>
+
+            </div>
+
+        </a>
+
+        <a href="shop.html" class="category-card">
+
+            <img src="images/categories/accessories.jpg" alt="Accessories">
+
+            <div class="category-overlay">
+
+                <h3>Accessories</h3>
+
+            </div>
+
+        </a>
+
+    </div>
+
+</section>
+<!-- ================= FEATURED PRODUCTS ================= -->
+
+<section class="featured">
+
+    <div class="section-title">
+
+        <span>Best Collection</span>
+
+        <h2>Featured Products</h2>
+
+        <p>Hand-picked products just for you.</p>
+
+    </div>
+
+    <div class="product-grid">
+
+        <!-- Product 1 -->
+
+        <div class="product-card">
+
+            <span class="sale">SALE</span>
+
+            <img src="images/products/product1.jpg" alt="Product">
+
+            <div class="product-info">
+
+                <h3>Premium Sneakers</h3>
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <div class="price">
+
+                    <span class="new-price">$89</span>
+
+                    <span class="old-price">$120</span>
+
+                </div>
+<button class="cart-btn" onclick="addToCart(1)">
+    <i class="fa-solid fa-cart-shopping"></i>
+    Add to Cart
+</button>
+
+            </div>
+
+        </div>
+
+        <!-- Product 2 -->
+
+        <div class="product-card">
+
+            <img src="images/products/product2.jpg" alt="Product">
+
+            <div class="product-info">
+
+                <h3>Luxury Watch</h3>
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <div class="price">
+
+                    <span class="new-price">$149</span>
+
+                    <span class="old-price">$199</span>
+
+                </div>
+
+                <button class="cart-btn">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Product 3 -->
+
+        <div class="product-card">
+
+            <img src="images/products/product3.jpg" alt="Product">
+
+            <div class="product-info">
+
+                <h3>Wireless Headphones</h3>
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <div class="price">
+
+                    <span class="new-price">$79</span>
+
+                    <span class="old-price">$110</span>
+
+                </div>
+
+                <button class="cart-btn">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Product 4 -->
+
+        <div class="product-card">
+
+            <img src="images/products/product4.jpg" alt="Product">
+
+            <div class="product-info">
+
+                <h3>Leather Backpack</h3>
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <div class="price">
+
+                    <span class="new-price">$99</span>
+
+                    <span class="old-price">$135</span>
+
+                </div>
+
+                <button class="cart-btn">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section class="why-us">
+
+    <div class="section-title">
+
+        <span>Why Choose Us</span>
+
+        <h2>Why Shop With DAWSONS?</h2>
+
+        <p>We provide quality products with the best shopping experience.</p>
+
+    </div>
+
+    <div class="why-grid">
+
+        <div class="why-card">
+
+            <i class="fa-solid fa-truck-fast"></i>
+
+            <h3>Fast Delivery</h3>
+
+            <p>Quick and secure delivery at your doorstep.</p>
+
+        </div>
+
+        <div class="why-card">
+
+            <i class="fa-solid fa-shield-halved"></i>
+
+            <h3>Secure Payment</h3>
+
+            <p>100% safe and encrypted payment methods.</p>
+
+        </div>
+
+        <div class="why-card">
+
+            <i class="fa-solid fa-headset"></i>
+
+            <h3>24/7 Support</h3>
+
+            <p>Our support team is always ready to help.</p>
+
+        </div>
+
+        <div class="why-card">
+
+            <i class="fa-solid fa-award"></i>
+
+            <h3>Premium Quality</h3>
+
+            <p>Only trusted and high-quality products.</p>
+
+        </div>
+
+    </div>
+
+
+<!-- ================= FLASH DEAL ================= -->
+
+
+<section class="newsletter">
+
+<h2>Subscribe to Our Newsletter</h2>
+
+<p>Get updates about new arrivals and exclusive offers.</p>
+
+<form>
+
+<input type="email" placeholder="Enter your email">
+
+<button>Subscribe</button>
+
+</form>
+
+</section>
+<footer>
+
+<div class="footer-container">
+
+<div>
+
+<h2>DAWSONS</h2>
+
+<p>Your trusted online shopping destination.</p>
+
+</div>
+
+<div>
+
+<h3>Quick Links</h3>
+
+<a href="#">Home</a>
+
+<a href="#">Shop</a>
+
+<a href="#">About</a>
+
+<a href="#">Contact</a>
+
+</div>
+
+<div>
+
+<h3>Follow Us</h3>
+
+<i class="fab fa-facebook"></i>
+
+<i class="fab fa-instagram"></i>
+
+<i class="fab fa-linkedin"></i>
+
+<i class="fab fa-x-twitter"></i>
+
+</div>
+
+</div>
+
+<p class="copyright">
+
+© 2026 DAWSONS. All Rights Reserved.
+
+</p>
+
+</footer>
+<button id="topBtn">
+
+<i class="fas fa-arrow-up"></i>
+
+</button>
+   
+    <script src="js/script.js"></script>
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/search.js"></script>
+
+
+
+
+</body>
+
+
+</html>

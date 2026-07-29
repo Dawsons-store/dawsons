@@ -1,0 +1,232 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DAWSONS | Shop</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                DAWSONS
+            </a>
+
+            <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="shop.html" class="active">Shop</a></li>
+
+                 <li><a href="categories.html">Categories</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+            <div class="search-box">
+
+                <input type="text" placeholder="Search products...">
+
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+            </div>
+
+            <div class="nav-icons">
+
+                <a href="login.html">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+
+                <a href="cart.html" class="cart-icon">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    <span id="cart-count">0</span>
+
+                </a>
+
+            </div>
+
+            <div class="menu-btn">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= SHOP BANNER ================= -->
+
+    <section class="shop-banner">
+
+        <div class="shop-banner-content">
+
+            <h1>Shop</h1>
+
+            <p>
+
+                <a href="index.html">Home</a>
+
+                /
+
+                Shop
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SHOP ================= -->
+
+    <section class="shop">
+
+        <!-- Sidebar -->
+
+        <aside class="sidebar">
+
+            <h3>Categories</h3>
+
+            <ul>
+
+                <li><input type="checkbox"> Electronics</li>
+                <li><input type="checkbox"> Fashion</li>
+                <li><input type="checkbox"> Shoes</li>
+                <li><input type="checkbox"> Beauty</li>
+                <li><input type="checkbox"> Home</li>
+                <li><input type="checkbox"> Accessories</li>
+
+            </ul>
+
+           
+
+            <h3>Rating</h3>
+
+            <ul>
+
+                <li>★★★★★</li>
+                <li>★★★★☆</li>
+                <li>★★★☆☆</li>
+
+            </ul>
+
+        </aside>
+
+        <!-- Products -->
+
+        <div class="shop-content">
+
+            <div class="shop-top">
+
+                <h2>All Products</h2>
+
+               
+
+            </div>
+
+            <div class="product-grid">
+
+                <!-- Products JavaScript se load honge -->
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div>
+
+                <h2>DAWSONS</h2>
+
+                <p>Your trusted online shopping destination.</p>
+
+            </div>
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+            <div>
+
+                <h3>Follow Us</h3>
+
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-x-twitter"></i>
+
+            </div>
+
+        </div>
+
+        <p class="copyright">
+
+            © 2026 DAWSONS. All Rights Reserved.
+
+        </p>
+
+    </footer>
+
+    <!-- Back To Top -->
+
+    <button id="topBtn">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <!-- JavaScript -->
+
+    <script src="js/script.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/search.js"></script>
+
+</body>
+
+</html>
