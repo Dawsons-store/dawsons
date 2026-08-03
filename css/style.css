@@ -1935,3 +1935,31 @@ border:none;
 border-radius:20px;
 
 }
+@media (max-width: 768px) {
+
+    .menu-btn {
+        display: block;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: #111;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+}
